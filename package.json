@@ -1,0 +1,33 @@
+{
+  "name": "react-redux-tree-shaking-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production && prettier --write \"dist/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andarist/react-redux-tree-shaking-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andarist/react-redux-tree-shaking-demo/issues"
+  },
+  "homepage": "https://github.com/Andarist/react-redux-tree-shaking-demo#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "webpack": "^5.38.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.0"
+  },
+  "prettier": {}
+}
